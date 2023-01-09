@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElClasico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon"> 
+</head>
+
+<body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">ElClasico</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tienda
+                </a>
+                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Siliconas</a></li>
+                  <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                  <li><a class="dropdown-item" href="#">Ceras</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 " type="search" placeholder=". . ." aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+
+    <section class="container autos" >
+        <h2>Te damos la bienvenida a " EL CLASICO CAR WASH "</h2>
+        <p>Queremos agradecerte como siempre por confiar en nosotros</p>
+        <p>Hace 10 años cuidando la estetica de tu vehiculo, siempre manteniendo los mejores productos y la calidad de nuestro servicio</p>
+    </section>
+
+    <main class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/camaro.jpg" class="d-block w-100" alt="chevrolet camaro">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Chevrolet Camaro</h5>
+              <p>El Chevrolet Camaro es un automóvil deportivo de dos puertas, con motor delantero montado longitudinalmente y de tracción trasera, producido por el fabricante estadounidense Chevrolet, división de General Motors (GM) desde 1966</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/gaviota.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SLS AMG GT3</h5>
+              <p>El nuevo SL no nace como Mercedes-Benz, sino como Mercedes-AMG, y eso ya da pistas sobre su personalidad. Sin duda, otro digno heredero para la saga del mítico 'Gullwing</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/ferrari.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ferrari 488</h5>
+              <p>El Ferrari 488 es un automóvil superdeportivo de dos puertas biplaza, con motor central-trasero montado longitudinalmente y de tracción trasera, producido por el fabricante italiano Ferrari. </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="container m-2 d-flex justify-content-center">
+        <h2>Usados seleccionados</h2>
+     </section>
+      
+    <div class="container d-flex justify-content-evenly" >
+
+      <div class="card m-2" style="width: 10rem;">
+        <img src="./assets/img/vento.jpg" class="card-img-top" alt="vento">
+        <div class="card-body ">
+          <h5 class="card-title">Vw Vento 2010</h5>
+          <p class="card-text">Luxury Tip 168 km.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 10rem;">
+        <img src="./assets/img/fiorino.jpg" class="card-img-top" alt="fiorino">
+        <div class="card-body">
+          <h5 class="card-title">Fiorino Fire</h5>
+          <p class="card-text">Fire A.A 180 km</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 10rem;">
+        <img src="./assets/img/gol.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gol Trend 2009</h5>
+          <p class="card-text">Confortline 100 km</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+    </main>
+
+    <footer>
+
+        <div class="container d-flex justify-content-center "> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi necessitatibus ratione odio dolores dolore.</p></div>
+        
+        <div class="container d-flex justify-content-evenly  ">
+            
+            <a class="m-2" href=""><img src="./assets/img/logoface.png" alt=""></a>
+            <a class="m-2" href=""><img src="./assets/img/logoinsta.png" alt=""> </a>
+            <a class="m-2" href=""><img src="./assets/img/logowhatsapp.png" alt=""></a>
+           
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
