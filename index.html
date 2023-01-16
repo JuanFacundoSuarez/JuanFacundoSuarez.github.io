@@ -31,8 +31,8 @@
                   Tienda
                 </a>
                 <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Siliconas</a></li>
-                  <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                  <li><a class="dropdown-item" href="./pages/siliconas.html">Siliconas</a></li>
+                  <li><a class="dropdown-item" href="./pages/perfumes.html">Perfumes</a></li>
                   <li><a class="dropdown-item" href="#">Ceras</a></li>
                   <li><a class="dropdown-item" href="#">Accesorios</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -49,17 +49,25 @@
             </form>
           </div>
         </div>
-      </nav>
-      <section class="container autos" >
-        <p>Somos "El Clasico Car Wash"</p>
-        <p>10 años trabajando para cuidar la estetica de tu vehiculo, siempre manteniendo la calidad de nuestros productos y brindando el mejor servicio del mercado.</p>
+      </nav> 
+      
+      <section class="container-fluid">
+        <div class="bg-dark py-2">
+          <div class="container px-4 px-lg-5 my-5">
+              <div class="text-center text-white">
+                 <h1 class="display-4 fw-bolder">El Clasico Car Wash</h1>
+                 <p class="lead fw-normal text-white-50 mb-0">10 años trabajando para cuidar la estetica de tu vehiculo, siempre manteniendo la calidad de nuestros productos y brindando el mejor servicio del mercado.</p>
+              </div>
+          </div>
+        </div>
       </section>
-
-    </header>
+     
 
     
 
-    <main class="container">
+    <main>
+
+      <div class="container">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,34 +106,44 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+    <section class="container-fluid ">
 
-      <section class="container m-2 d-flex justify-content-center">
-        <h2>Usados seleccionados</h2>
-     </section>
+      <div class="bg-dark py-1">
+          <div class="containerpx-4 px-lg-5 my-5">
+              <div class="text-center text-white">
+                 <h1 class="display-4 fw-bolder">Usados seleccionados</h1>
+                 <p class="lead fw-normal text-white-50 mb-0">Nuestros usados seleccionados en venta</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+    
       
-    <div class="container d-flex justify-content-evenly" >
+     <div class="d-flex row justify-content-center">
 
-      <div class="card m-2" style="width: 10rem;">
+      <div class="card col-xs-4 col-lg-4 m-2" style="width: 18rem;">
         <img src="./assets/img/vento.jpg" class="card-img-top" alt="vento">
         <div class="card-body ">
           <h5 class="card-title">Vw Vento 2010</h5>
-          <p class="card-text">Luxury Tip 168 km.</p>
+          <p class="card-text">Luxury Tip <br> 168 km.</p>
           <a href="#" class="btn btn-primary">Ver mas</a>
         </div>
       </div>
-      <div class="card m-2" style="width: 10rem;">
+      <div class="card col-xs-4 col-lg-4 m-2" style="width: 18rem;">
         <img src="./assets/img/fiorino.jpg" class="card-img-top" alt="fiorino">
         <div class="card-body">
           <h5 class="card-title">Fiorino Fire</h5>
-          <p class="card-text">Fire A.A 180 km</p>
+          <p class="card-text">Fire A.A <br> 180 km</p>
           <a href="#" class="btn btn-primary">Ver mas</a>
         </div>
       </div>
-      <div class="card m-2" style="width: 10rem;">
+      <div class="card col-xs-4 col-lg-4 m-2" style="width: 18rem;">
         <img src="./assets/img/gol.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Gol Trend 2009</h5>
-          <p class="card-text">Confortline 100 km</p>
+          <p class="card-text">Confortline <br> 100 km</p>
           <a href="#" class="btn btn-primary">Ver mas</a>
         </div>
       </div>
@@ -138,8 +156,8 @@
         
         <div class="container d-flex justify-content-evenly  ">
             
-            <a class="m-2" href=""><img src="./assets/img/logoface.png" alt=""></a>
-            <a class="m-2" href=""><img src="./assets/img/logoinsta.png" alt=""> </a>
+            <a class="m-2" href="https://www.facebook.com/lavaderoelclasico"><img src="./assets/img/logoface.png" alt=""></a>
+            <a class="m-2" href="https://www.instagram.com/elclasicocarwash/"><img src="./assets/img/logoinsta.png" alt=""> </a>
             <a class="m-2" href=""><img src="./assets/img/logowhatsapp.png" alt=""></a>
            
         </div>
