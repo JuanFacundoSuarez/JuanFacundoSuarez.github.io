@@ -1,0 +1,34 @@
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    .formu{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .mapa{
+       
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+    .mapita{
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .consulta{
+        margin-left: 12px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: black;
+    }
+    .h3d{
+        
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
+}

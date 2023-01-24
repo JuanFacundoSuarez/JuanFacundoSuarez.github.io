@@ -1,0 +1,42 @@
+header{
+    
+    width: 100%;
+
+}
+.navBar{
+    list-style: none;
+    background: linear-gradient(183deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    gap: 20px;
+
+    li{
+    
+        
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            }
+        }
+    }
+
+.titular{
+    background-color: rgba(40, 40, 40, 0.463);
+    justify-content: center;
+    height: 100px;
+    
+    h1{
+        padding: 10px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-family: $typo-principal;
+    }
+    p{
+       
+       
+    }
+}
+    
